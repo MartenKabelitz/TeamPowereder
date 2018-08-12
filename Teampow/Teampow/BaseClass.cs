@@ -6,9 +6,10 @@ namespace Teampow
 {
     class BaseClass
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string FirstName { get; set; }       
         public string Adress { get; set; }
+
+        public int Income { get; set; }
 
         public void Ausgabe()
         {

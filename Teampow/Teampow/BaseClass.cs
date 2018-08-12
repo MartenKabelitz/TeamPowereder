@@ -6,5 +6,9 @@ namespace Teampow
 {
     class BaseClass
     {
+        public void Ausgabe()
+        {
+            Console.WriteLine("hi");
+        }
     }
 }
